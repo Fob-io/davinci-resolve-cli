@@ -36,3 +36,6 @@ python3.11 -m venv .venv && .venv/bin/pip install -e ".[dev]"
 ```
 `test_full_e2e.py` needs a running Resolve; it only creates/deletes a scratch project `cliany_test_*`.
 Run it only with Resolve idle: `CLI_ANYTHING_FORCE_INSTALLED=1 .venv/bin/python -m pytest cli_anything/davinci_resolve/tests -v -s`.
+
+## License
+MIT, see [LICENSE](LICENSE).

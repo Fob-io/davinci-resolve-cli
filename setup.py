@@ -8,6 +8,7 @@ with open("cli_anything/davinci_resolve/README.md", "r", encoding="utf-8") as fh
 setup(
     name="cli-anything-davinci-resolve",
     version="1.0.0",
+    license="MIT",
     description="CLI harness for DaVinci Resolve Studio via its scripting API",
     long_description=long_description,
     long_description_content_type="text/markdown",
